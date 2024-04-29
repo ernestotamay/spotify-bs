@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify</title>
+  <link rel="stylesheet" href="./assets/bootstrap.css">
+  <link rel="stylesheet" href="./assets/spotify.css">
+  <script src="./assets/bootstrap.bundle.js"></script>
+  
+</head>
+<body>
+  <!-- contenedor principal o canva -->
+  <div class="container-fluid">
+
+    <!-- barra de navegacion-->
+    <nav class="navbar navbar-expand-lg fondo  ">
+      <div class="container-fluid">
+        
+        <!-- logo spoptify-->
+        <a class="navbar-brand" href="#">
+          <img src="./assets/spotify-logo.svg" alt="spotify logo" width="90" height="30">
+        </a>
+        
+        <!-- toggler o menu hamburguesa -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- elementos del menu-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- lista no ordenada -->
+          <ul class="navbar-nav">
+            <li class="nav-item  ">
+              <a class="nav-link hipervinculo" href="#">Premium</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hipervinculo" href="#">Ayuda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hipervinculo" href="#">Descargar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hipervinculo" href="#">Perfil</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <!-- section heroe-->
+    <!-- contenedor heroe-->
+    <div class="container px-4 py-5">
+      <!-- contenedor fila -->
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <!-- contenedor columna izquierda -->
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./assets/spotify-album.png" class="d-block mx-lg-auto img-fluid" alt="Spotify Albums" width="700" height="500" loading="lazy">
+        </div>
+
+        <!-- contenedor columna derecha -->
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">Aprovecha tu música al máximo con Premium Individual.</h1>
+          <p class="h3 fw-bold">Disfruta de música sin interrupciones con Spotify Premium.
+            <br>
+            A partir de solo $129. Cancela cuando quieras.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-light rounded-5">Obtener Premium Individual</button>
+            <button type="button" class="btn btn-outline-light rounded-5">Ver todos los planes Premium</button>
+          </div>
+        </div>        
+      </div>
+    </div>
+
+
+    <!-- contenedor fila -->
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5 text-center" >
+      <h1 class="display-5 fw-bold  lh-1 mb-3">Nota la diferencia</h1>
+      <p class="h3 fw-bold">
+        Cámbiate a Premium y disfruta del control total de tu música. Cancela cuando quieras.
+      </p>
+    </div>
+
+    <!-- contenedor de la tabla -->
+    <div class="row flex-lg-row-reverse align-items-center g-5  py-5" style="padding: 0 25%;">
+    
+      <!-- tabla -->
+      <table class="table table-dark striped ">
+        <thead>
+          <tr>
+            <th scope="col">Beneficios</th>
+            <th scope="col">Servicio gratuito de Spotify</th>
+            <th scope="col">Premium</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            
+            <td>Escucha música sin anuncios</td>
+            <td> - </td>
+            <td> <img src="./assets/check-circle-fill.svg" alt="" srcset=""> </td>
+            
+          </tr>
+          <tr>
+            
+            <td>Descarga y escucha en modo offline</td>
+            <td> - </td>
+            <td> <img src="./assets/check-circle-fill.svg" alt="" srcset=""> </td>
+            
+          </tr>
+          <tr>
+            
+            <td>Reproduce canciones en el orden que quieras</td>
+            <td> - </td>
+            <td> <img src="./assets/check-circle-fill.svg" alt="" srcset=""> </td>
+          </tr>
+          
+          <tr>
+            
+            <td>Sonido de alta calidad</td>
+            <td> - </td>
+            <td> <img src="./assets/check-circle-fill.svg" alt="" srcset=""> </td>
+          </tr>
+          
+          <tr>
+            
+            <td>Escucha contenido con tus personas favoritas en tiempo real</td>
+            <td> - </td>
+            <td> <img src="./assets/check-circle-fill.svg" alt="" srcset=""> </td>
+          </tr>
+          
+          <tr>
+            
+            <td>Organiza la fila de reproducción</td>
+            <td> - </td>
+            <td> <img src="./assets/check-circle-fill.svg" alt="" srcset=""> </td>
+          </tr>
+          
+
+        </tbody>
+      </table>
+      
+    </div>
+
+    <!-- contenedor fila -->
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5 text-center" >
+      <h1 class="display-5 fw-bold lh-1 mb-3">Planes accesibles para cada situación</h1>
+      <p class="lead">
+        Elige un plan Premium y escucha música sin anuncios y sin límites en tu teléfono, bocina y otros dispositivos. Accede a varias formas de pago. Cancela cuando quieras.
+      </p>
+      <p>
+        <img src="./assets/visa.svg" alt="visa card" width="50px" >
+        <img src="./assets/mastercard.svg" alt="visa card" width="50px" >
+        <img src="./assets/american-express.svg" alt="visa card" width="50px" >
+        <img src="./assets/paypal.png" alt="visa card" width="50px" >
+      </p>
+    </div>
+
+    <!-- contenedor fila -->
+    <div class="row flex-lg-row align-items-center g-5  p-5 text-center" >
+      
+      <div class="col-7" text-center>
+        <h1 class="display-5 fw-bold lh-1 mb-3">
+          Todos los planes Premium incluyen lo siguiente:
+        </h1>
+      </div>
+        
+      <div class="col-5 text-start">
+        <ul>
+          <li>Escucha música sin anuncios</li>
+          <li>Descarga y escucha en modo offline</li>
+          <li>Reproduce canciones en el orden que quieras</li>
+          <li>Sonido de alta calidad</li>
+          <li>Escucha contenido con tus personas favoritas en tiempo real</li>
+          <li>Organiza la fila de reproducción</li>  
+        </ul>
+      </div>
+    </div>
+    <!-- contenedor para planes-->
+    <div class="row flex-lg-row align-items-start g-5  m-3">
+      <div class="col-6">
+        <div class="card">
+          <div class="card-header">
+            <img src="./assets/spotify-logo.svg" alt="spotify premium" height="25px">
+            <h1>Individual</h1>
+            <p>$129/mes</p>
+          </div>
+          <div class="card-body" style="height: 12rem;">
+            <ul>
+              <li>1 cuenta Premium</li>
+              <li>Cancela en cualquier momento</li>
+              <li>Suscripción o un pago único</li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="col-6">
+        <div class="card text-bg-dark">
+          <div class="card-header ">
+            <img src="./assets/spotify-logo.svg" alt="spotify premium" height="25px">
+            <h1 class="" style="color: rgb(196, 177, 212)">Estudiante</h1>
+            <p>$69/mes</p>
+          </div>
+          <div class="card-body" style="height: 12rem;">
+            <ul>
+              <li>1 cuenta Premium verificada</li>
+              <li>Descuento para estudiantes que cumplen con los requisitos</li>
+              <li>Cancela en cualquier momento</li>
+              <li>Suscripción o un pago único</li>
+              
+            </ul>            
+          </div>
+          <div class="card-body text-center">            
+            <button type="button" class="btn  rounded-5 m-3" style="background-color: rgb(196, 177, 212); color: #000;">Obtener Premium para Estudiantes</button>
+            <p class="small">Esta oferta está disponible solo para estudiantes de instituciones de educación superior acreditadas. Se aplican Términos.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6">
+        <div class="card">
+          <div class="card-header">
+            <img src="./assets/spotify-logo.svg" alt="spotify premium" height="25px">
+            <h1>Duo</h1>
+            <p>$169/mes</p>
+          </div>
+          <div class="card-body" style="height: 12rem;">
+            <ul>
+              <li>2 cuentas Premium</li>
+              <li>Cancela en cualquier momento</li>
+              <li>Suscripción o un pago único</li>
+            </ul>            
+          </div>
+          <div class="card-body text-center">
+            <button type="button" class="btn btn-primary rounded-5 m-3">Obtener Premium Duo</button>
+            <p class="small">Esta oferta está disponible solo para estudiantes de instituciones de educación superior acreditadas. Se aplican Términos.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6">
+        <div class="card">
+          <div class="card-header">
+            <img src="./assets/spotify-logo.svg" alt="spotify premium" height="25px">
+            <h1>Familiar</h1>
+            <p>$199/mes</p>
+          </div>
+          <div class="card-body" style="height: 12rem;">
+            <ul>
+              <li>Hasta 6 cuentas Kids o Premium</li>
+              <li>Bloqueo de música con contenido explícito</li>
+              <li>Acceso a Spotify Kids</li>
+              <li>Cancela en cualquier momento</li>
+              <li>Suscripción o un pago único</li>
+            </ul>            
+          </div>
+          <div class="card-body text-center">
+            <button type="button" class="btn btn-primary rounded-5 m-3">Obtener Premium Familiar</button>
+            <p class="small">Para hasta 6 familiares que viven en el mismo domicilio. Se aplican Términos.</p>
+          </div>
+        </div>
+      </div>      
+    </div>
+
+    <!-- contenedor fila -->
+    <div class="row flex-lg-row-reverse align-items-center g-5  p-5 text-center" >
+      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">¿Tienes alguna pregunta?</h1>
+      <p class="lead">Podemos ayudarte. <br> Obtén aún más respuestas a tus preguntas aquí.</p>
+
+      
+    </div>
+    
+    <!-- acordeon de preguntas -->
+    <div class="row p-5" style="margin-left: 10%; margin-right: 10%;">
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapse" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              ¿Cómo funciona la prueba de Spotify Premium?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              Si nunca tuviste un plan Premium, puede que cumplas con los requisitos para obtener una prueba gratuita (o de precio reducido). 
+              <br>
+              Deberás ingresar un método de pago válido para registrarte y utilizar las pruebas. Utilizaremos esta información para confirmar tu país o región y procesar los pagos si deseas mantener tu plan Premium luego de que finalice la prueba gratuita.
+              <br>
+              Te enviaremos un recordatorio 7 días antes de que finalice la prueba. Se aplican restricciones y términos por país.
+            </div>
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              ¿Cómo cancelo mi plan Premium?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nobis tempore impedit, tenetur magnam nesciunt veritatis facere blanditiis suscipit esse ad recusandae voluptatem labore a libero eligendi porro nisi aliquam.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              ¿Cómo funciona el plan Premium Duo?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi itaque tempore eos temporibus quos doloremque dolorem cumque eveniet facere sint harum quidem facilis, unde tempora non optio, illum fuga laboriosam.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+              ¿Cómo funciona el plan Premium Familiar?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi itaque tempore eos temporibus quos doloremque dolorem cumque eveniet facere sint harum quidem facilis, unde tempora non optio, illum fuga laboriosam.
+            </div>
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+              ¿Cómo funciona el plan Premium Estudiante?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi itaque tempore eos temporibus quos doloremque dolorem cumque eveniet facere sint harum quidem facilis, unde tempora non optio, illum fuga laboriosam.
+            </div>
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+              ¿Cuánto cuesta Spotify Premium en México?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi itaque tempore eos temporibus quos doloremque dolorem cumque eveniet facere sint harum quidem facilis, unde tempora non optio, illum fuga laboriosam.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container">
+      <footer class="row py-5 my-5 border-top fondo">
+        <div class="row">
+        
+          <div class="col mb-3">
+            <!-- logo spoptify-->
+            <a class="navbar-brand" href="#">
+              <img src="./assets/spotify-logo.svg" alt="spotify logo" height="50">
+            </a>
+          </div>
+      
+          <div class="col mb-3">
+            <h5>COMPAÑÍA</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Acerca de</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Empleo</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">For the Record</a></li>            
+            </ul>
+          </div>
+      
+          <div class="col mb-3">
+            <h5>COMUNIDADES</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Para artistas</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Para desarrolladores</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Publicidad</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Inversionistas</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Proveedores</a></li>
+            </ul>
+          </div>
+      
+          <div class="col mb-3">
+            <h5>ENLACES UTILES</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Ayuda</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Reproductor</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">App móvil gratis</a></li>            
+            </ul>
+          </div>
+
+          <div class="col mb-3">
+            <ul class="list-unstyled d-flex justify-content-end">
+              <li class=""><img src="./assets/instagram.svg" alt="instagram" height="30px"></li>
+              <li class=""><img src="./assets/twitter-x.svg" alt="twitter X" height="30px"></li>
+              <li class=""><img src="./assets/facebook.svg" alt="facebook" height="30px"></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-8">
+            <ul class="nav ">
+              <li class="nav-item text-whit"><a href="#" class="nav-link px-2 text-body-secondary">Legal</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Centro de privacidad</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Política de Privacidad</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Cookies</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Sobre los anuncios</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Accesibilidad</a></li>
+            </ul>
+
+          </div>
+
+          <div class="col-4 text-end">
+            © 2024 Spotify AB
+          </div>
+
+        </div>
+
+         
+        
+      </footer>
+
+      
+    </div>
+
+  </div>
+</body>
+</html>
